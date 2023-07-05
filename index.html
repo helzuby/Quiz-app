@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Quiz</h1>
+    <p>How many provinces does the Netherlands have?</p>
+
+    <form id="quizForm">
+        <input type="radio" name="question1" value="10">10<br>
+        <input type="radio" name="question1" value="20">20<br>
+        <input type="radio" id="correct1" name="question1" value="12">12<br>
+        <input type="radio" name="question1" value="15">15<br>
+        <br><br>
+
+        <p>Which language has more native speakers?</p>
+
+        <input type="radio" name="question2" value="English">English<br>
+        <input type="radio" name="question2" value="French">French<br>
+        <input type="radio" name="question2" value="Dutch">Dutch<br>
+        <input type="radio" id="correct2" name="question2" value="Spanish">Spanish<br>
+        <br><br>
+
+        <p>What year was the United Nations established?</p>
+
+        <input type="radio" name="question3" value="1965">1965<br>
+        <input type="radio" id="correct3" name="question3" value="1945">1945<br>
+        <input type="radio" name="question3" value="1926">1926<br>
+        <input type="radio" name="question3" value="1960">1960<br>
+    </form>
+    <br><br>
+
+    <input type="button" name="submit" id="submitBtn" value="Submit" onclick="showResult()">
+     <div id="output"></div>
+    <div id="score"></div>
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
+    
+   
+  
